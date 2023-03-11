@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_vacancies_skills_group",
+  "info": {
+    "displayName": "Skills Group",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "Is a Plus",
+        "Must Have",
+        "Soft Skills"
+      ],
+      "required": true
+    },
+    "skill": {
+      "displayName": "Skill",
+      "type": "component",
+      "repeatable": true,
+      "component": "vacancies.skill"
+    }
+  }
+}
