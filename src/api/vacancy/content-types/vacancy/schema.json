@@ -143,6 +143,12 @@
       "type": "component",
       "repeatable": true,
       "component": "vacancies.skills"
+    },
+    "countries": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::country.country",
+      "mappedBy": "vacancies"
     }
   }
 }
