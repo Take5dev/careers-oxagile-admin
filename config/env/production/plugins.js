@@ -1,4 +1,4 @@
-module.exports = {
+module.exports = ({ env }) => ({
     //
     email: {
         config: {
@@ -48,4 +48,4 @@ module.exports = {
             },
         },
     },
-};
+});
