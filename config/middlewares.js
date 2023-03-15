@@ -1,6 +1,17 @@
-module.exports = [
+module.exports = ({ env }) => [
   'strapi::errors',
-  'strapi::security',
+  //"strapi::security",
+  {
+    name: "strapi::security",
+    config: {
+      contentSecurityPolicy: {
+        directives: {
+          "default-src": ["'self'"],
+          "img-src": ["'self'", "data:", "blob:", env("SUPABASE_API_URL"), env("PUBLIC_ADMIN_URL")],
+        },
+      },
+    },
+  },
   'strapi::cors',
   'strapi::poweredBy',
   'strapi::logger',

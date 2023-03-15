@@ -1,5 +1,5 @@
-module.exports = {
-    //
+module.exports = ({ env }) => ({
+    // ...
     email: {
         config: {
             provider: 'nodemailer',
@@ -36,16 +36,4 @@ module.exports = {
             },
         },
     },
-    graphql: {
-        config: {
-            endpoint: '/graphql',
-            shadowCRUD: true,
-            playgroundAlways: false,
-            depthLimit: 7,
-            amountLimit: 100,
-            apolloServer: {
-                tracing: false,
-            },
-        },
-    },
-};
+});
