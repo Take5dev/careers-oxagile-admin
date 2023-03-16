@@ -27,12 +27,6 @@
     },
     "text": {
       "type": "richtext"
-    },
-    "vacancies": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::vacancy.vacancy",
-      "mappedBy": "projects"
     }
   }
 }

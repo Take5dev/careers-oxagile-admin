@@ -24,56 +24,6 @@
     "titleAdjective": {
       "type": "string"
     },
-    "willdoText": {
-      "type": "richtext"
-    },
-    "willdoTitle": {
-      "type": "string"
-    },
-    "willdoShow": {
-      "type": "boolean",
-      "default": true,
-      "required": true
-    },
-    "projectShow": {
-      "type": "boolean",
-      "default": true,
-      "required": true
-    },
-    "weofferTitle": {
-      "type": "string"
-    },
-    "weofferContent": {
-      "type": "richtext"
-    },
-    "weofferShowButtton": {
-      "type": "boolean",
-      "default": true,
-      "required": true
-    },
-    "weofferButtonLinkType": {
-      "type": "enumeration",
-      "enum": [
-        "internal",
-        "external"
-      ],
-      "default": "external",
-      "required": false
-    },
-    "weofferButtonLink": {
-      "type": "string"
-    },
-    "weofferButtonLabel": {
-      "type": "string"
-    },
-    "weofferIcon": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images"
-      ]
-    },
     "isHot": {
       "type": "boolean",
       "default": false,
@@ -101,9 +51,6 @@
       "target": "api::department.department",
       "inversedBy": "vacancies"
     },
-    "projectTitle": {
-      "type": "string"
-    },
     "levels": {
       "type": "relation",
       "relation": "manyToMany",
@@ -122,12 +69,6 @@
       "target": "api::tag.tag",
       "inversedBy": "vacancies"
     },
-    "projects": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::project.project",
-      "inversedBy": "vacancies"
-    },
     "seo": {
       "type": "component",
       "repeatable": false,
@@ -144,11 +85,30 @@
       "repeatable": true,
       "component": "vacancies.skills"
     },
-    "countries": {
+    "user_applications": {
       "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::country.country",
-      "mappedBy": "vacancies"
+      "relation": "oneToMany",
+      "target": "api::user-application.user-application",
+      "mappedBy": "vacancy"
+    },
+    "workConditions": {
+      "displayName": "Work Conditions",
+      "type": "component",
+      "repeatable": true,
+      "component": "vacancies.work-conditions"
+    },
+    "willDo": {
+      "type": "dynamiczone",
+      "components": [
+        "vacancies.will-do"
+      ]
+    },
+    "project": {
+      "type": "dynamiczone",
+      "components": [
+        "vacancies.project",
+        "vacancies.pros"
+      ]
     }
   }
 }

@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_about_single_testimonials",
+  "info": {
+    "displayName": "Single Testimonial"
+  },
+  "options": {},
+  "attributes": {
+    "photo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "name": {
+      "type": "string"
+    },
+    "text": {
+      "type": "richtext"
+    },
+    "position": {
+      "type": "string"
+    }
+  }
+}

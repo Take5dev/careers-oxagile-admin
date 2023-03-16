@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_about_facts",
+  "info": {
+    "displayName": "Facts"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "The chronicles of Oxagile"
+    },
+    "subTitle": {
+      "type": "string",
+      "default": "Facts about Oxagile"
+    },
+    "fact": {
+      "displayName": "Fact",
+      "type": "component",
+      "repeatable": true,
+      "component": "about.fact"
+    }
+  }
+}

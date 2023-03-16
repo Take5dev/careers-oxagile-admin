@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_about_client_logos",
+  "info": {
+    "displayName": "Client Logo"
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

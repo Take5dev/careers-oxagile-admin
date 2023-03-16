@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_about_gallery_images",
+  "info": {
+    "displayName": "Gallery Images"
+  },
+  "options": {},
+  "attributes": {
+    "orientation": {
+      "type": "enumeration",
+      "enum": [
+        "landscape",
+        "portrait",
+        "square"
+      ],
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "page_404s",
+  "info": {
+    "singularName": "page-404",
+    "pluralName": "page-404s",
+    "displayName": "Page 404",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "metaTitle": {
+      "type": "string"
+    },
+    "metaDescription": {
+      "type": "text"
+    },
+    "content": {
+      "displayName": "Content 404",
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.content-404"
+    }
+  }
+}

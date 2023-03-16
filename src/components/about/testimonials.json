@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_about_testimonials",
+  "info": {
+    "displayName": "Testimonials"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Our team satisfaction matters"
+    },
+    "showAnotherLabel": {
+      "type": "string",
+      "default": "Show another testimonial"
+    },
+    "testimonial": {
+      "displayName": "Single Testimonial",
+      "type": "component",
+      "repeatable": true,
+      "component": "about.single-testimonial"
+    }
+  }
+}

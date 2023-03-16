@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_about_single_leaders",
+  "info": {
+    "displayName": "Single Leader"
+  },
+  "options": {},
+  "attributes": {
+    "photo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "name": {
+      "type": "string"
+    },
+    "position": {
+      "type": "string"
+    }
+  }
+}

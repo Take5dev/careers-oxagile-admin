@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_about_singlefacts",
+  "info": {
+    "displayName": "Fact"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "number": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    }
+  }
+}

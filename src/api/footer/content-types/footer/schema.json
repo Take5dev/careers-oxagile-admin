@@ -1,0 +1,41 @@
+{
+  "kind": "singleType",
+  "collectionName": "footers",
+  "info": {
+    "singularName": "footer",
+    "pluralName": "footers",
+    "displayName": "Footer"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "logo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "phone": {
+      "type": "string",
+      "default": "+1 855 466 9244"
+    },
+    "address": {
+      "type": "string",
+      "default": "165 Broadway, 23rd Floor, New York, NY 10006, USA"
+    },
+    "footerMenu": {
+      "type": "component",
+      "repeatable": true,
+      "component": "menus.menu"
+    },
+    "socialLinks": {
+      "displayName": "Social Links",
+      "type": "component",
+      "repeatable": true,
+      "component": "menus.social-links"
+    }
+  }
+}

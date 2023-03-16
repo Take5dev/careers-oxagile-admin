@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_about_leaders",
+  "info": {
+    "displayName": "Leaders"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Supported by the leaders"
+    },
+    "leader": {
+      "displayName": "Single Leader",
+      "type": "component",
+      "repeatable": true,
+      "component": "about.single-leader"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_homepage_values",
+  "info": {
+    "displayName": "Values"
+  },
+  "options": {},
+  "attributes": {
+    "valuesTab": {
+      "displayName": "Values Tabs",
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage.values-tabs"
+    }
+  }
+}

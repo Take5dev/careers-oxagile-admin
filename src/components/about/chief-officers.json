@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_about_chief_officers",
+  "info": {
+    "displayName": "Chief Officers"
+  },
+  "options": {},
+  "attributes": {
+    "photo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "blockquote": {
+      "type": "text"
+    },
+    "name": {
+      "type": "string"
+    },
+    "position": {
+      "type": "string"
+    }
+  }
+}

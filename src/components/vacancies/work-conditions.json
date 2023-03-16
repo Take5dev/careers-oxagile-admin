@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_vacancies_work_conditions",
+  "info": {
+    "displayName": "Work Conditions"
+  },
+  "options": {},
+  "attributes": {
+    "condition": {
+      "type": "enumeration",
+      "enum": [
+        "Office",
+        "Remote",
+        "Office+Remote"
+      ]
+    },
+    "country": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::country.country"
+    }
+  }
+}

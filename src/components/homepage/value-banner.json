@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_homepage_value_banners",
+  "info": {
+    "displayName": "Value Banner"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "lead": {
+      "type": "text",
+      "default": "Career without CARE is just an Error. That's why your needs are our top priority. Focus on what matters to you, and we take care of the rest."
+    }
+  }
+}

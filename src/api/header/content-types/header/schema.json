@@ -4,7 +4,8 @@
   "info": {
     "singularName": "header",
     "pluralName": "headers",
-    "displayName": "Header"
+    "displayName": "Header",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -26,6 +27,10 @@
       "type": "string",
       "default": "Join Us",
       "required": true
+    },
+    "scrollDownLabel": {
+      "type": "string",
+      "default": "Scroll to discover"
     }
   }
 }

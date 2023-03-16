@@ -57,12 +57,6 @@
       "type": "component",
       "repeatable": true,
       "component": "countries.cities"
-    },
-    "vacancies": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::vacancy.vacancy",
-      "inversedBy": "countries"
     }
   }
 }

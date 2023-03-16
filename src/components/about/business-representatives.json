@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_about_business_representatives",
+  "info": {
+    "displayName": "Business Representatives"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": false
+    },
+    "countryName": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string",
+      "unique": true
+    },
+    "flag": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "mapx": {
+      "type": "float"
+    },
+    "mapy": {
+      "type": "float"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_about_histories",
+  "info": {
+    "displayName": "History"
+  },
+  "options": {},
+  "attributes": {
+    "minYear": {
+      "type": "integer",
+      "default": 2005
+    },
+    "maxYear": {
+      "type": "integer",
+      "default": 2022
+    },
+    "title": {
+      "type": "string",
+      "default": "Our History"
+    },
+    "discoverMoreLabel": {
+      "type": "string",
+      "default": "Discover more"
+    },
+    "year": {
+      "displayName": "Years",
+      "type": "component",
+      "repeatable": true,
+      "component": "about.years"
+    }
+  }
+}

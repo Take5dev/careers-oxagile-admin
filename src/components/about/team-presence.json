@@ -1,0 +1,45 @@
+{
+  "collectionName": "components_about_team_presences",
+  "info": {
+    "displayName": "Team Presence"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "countryName": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "showPoint": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "flag": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "mapx": {
+      "type": "float"
+    },
+    "mapy": {
+      "type": "float"
+    }
+  }
+}

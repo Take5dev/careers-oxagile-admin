@@ -1,0 +1,115 @@
+{
+  "kind": "singleType",
+  "collectionName": "popup_forms",
+  "info": {
+    "singularName": "popup-form",
+    "pluralName": "popup-forms",
+    "displayName": "Popup Form"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "maxFileSize": {
+      "type": "integer",
+      "default": 10000000
+    },
+    "requiredError": {
+      "type": "string",
+      "default": "The field is required"
+    },
+    "emailIncorrectError": {
+      "type": "string",
+      "default": "Please write a correct e-mail"
+    },
+    "legalRequiredError": {
+      "type": "string",
+      "default": "Please agree"
+    },
+    "fileSizeError": {
+      "type": "string",
+      "default": "Max filesize is 10MB"
+    },
+    "presumedMatchLabel": {
+      "type": "string",
+      "default": "Your presumed match"
+    },
+    "notEnoughDataLabel": {
+      "type": "string",
+      "default": "Sorry, not enough data for evaluation"
+    },
+    "getToKnowYouBetterLabel": {
+      "type": "string",
+      "default": "Hmm.. We want to get know you better"
+    },
+    "perfectLabel": {
+      "type": "string",
+      "default": "Congrats, you're perfect for us!"
+    },
+    "toGoodLabel": {
+      "type": "string",
+      "default": "Aren't you too good to be true? Contact us asap!"
+    },
+    "popupFormTitle": {
+      "type": "string",
+      "default": "Join Us"
+    },
+    "vacancyPageTitle": {
+      "type": "string",
+      "default": "Join our Team"
+    },
+    "nameLabel": {
+      "type": "string",
+      "default": "Name*"
+    },
+    "emailLabel": {
+      "type": "string",
+      "default": "Email*"
+    },
+    "vacancyLabel": {
+      "type": "string",
+      "default": "Vacancy"
+    },
+    "anyVacancyTitle": {
+      "type": "string",
+      "default": "Any Vacancy"
+    },
+    "anyVacancyInfo": {
+      "type": "string",
+      "default": "I just want to share my CV"
+    },
+    "fileLabel": {
+      "type": "string",
+      "default": "Attach your CV*"
+    },
+    "fileTip": {
+      "type": "string",
+      "default": "Doc, PDF, JPG, Archive (10 MB or less)"
+    },
+    "removeFileLabel": {
+      "type": "string",
+      "default": "Remove file"
+    },
+    "coverLetterLabel": {
+      "type": "string",
+      "default": "Cover letter"
+    },
+    "submitLabel": {
+      "type": "string",
+      "default": "Apply now"
+    },
+    "sentLabel": {
+      "type": "string",
+      "default": "Your message is sent"
+    },
+    "sentTitle": {
+      "type": "string",
+      "default": "Thank You for Your Interest!"
+    },
+    "sentText": {
+      "type": "string",
+      "default": "Your message has been successfully received, and an expert will get back to you shortly."
+    }
+  }
+}

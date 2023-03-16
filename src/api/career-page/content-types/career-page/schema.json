@@ -1,0 +1,66 @@
+{
+  "kind": "singleType",
+  "collectionName": "career_pages",
+  "info": {
+    "singularName": "career-page",
+    "pluralName": "career-pages",
+    "displayName": "Career Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Complete the top team"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "settings.seo"
+    },
+    "departmentsLabel": {
+      "type": "string",
+      "default": "Departments"
+    },
+    "allDepartmentsLabel": {
+      "type": "string",
+      "default": "All departments"
+    },
+    "technologyLabel": {
+      "type": "string",
+      "default": "Technology / Position"
+    },
+    "allTechnologiesLabel": {
+      "type": "string",
+      "default": "All technologies / positions"
+    },
+    "locationLabel": {
+      "type": "string",
+      "default": "Location"
+    },
+    "allLocationsLabel": {
+      "type": "string",
+      "default": "All locations"
+    },
+    "levelLabel": {
+      "type": "string",
+      "default": "Level"
+    },
+    "allLevelsLabel": {
+      "type": "string",
+      "default": "All levels"
+    },
+    "searchLabel": {
+      "type": "string",
+      "default": "Search"
+    },
+    "selectedLabel": {
+      "type": "string",
+      "default": "Selected filter:"
+    }
+  }
+}

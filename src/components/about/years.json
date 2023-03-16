@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_about_years",
+  "info": {
+    "displayName": "Years"
+  },
+  "options": {},
+  "attributes": {
+    "year": {
+      "type": "integer"
+    },
+    "text": {
+      "type": "richtext"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

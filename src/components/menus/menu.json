@@ -1,7 +1,8 @@
 {
   "collectionName": "components_menus_menus",
   "info": {
-    "displayName": "Menu"
+    "displayName": "Menu",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -11,6 +12,15 @@
     },
     "label": {
       "type": "string"
+    },
+    "blank": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "download": {
+      "type": "boolean",
+      "default": false
     }
   }
 }

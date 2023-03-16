@@ -1,0 +1,78 @@
+{
+  "kind": "singleType",
+  "collectionName": "vacancy_pages",
+  "info": {
+    "singularName": "vacancy-page",
+    "pluralName": "vacancy-pages",
+    "displayName": "Vacancy Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hotLabel": {
+      "type": "string",
+      "default": "🔥 Hot"
+    },
+    "defaultImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "applyLabel": {
+      "type": "string",
+      "default": "Apply now"
+    },
+    "skillsTitle": {
+      "type": "string",
+      "default": "Compare your skills with our requirements"
+    },
+    "guessYourMatchImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "mustHaveLabel": {
+      "type": "string",
+      "default": "Must-have"
+    },
+    "mustHaveImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "isAPlusLabel": {
+      "type": "string",
+      "default": "Is a plus"
+    },
+    "isAPlusImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "softSkillsLabel": {
+      "type": "string",
+      "default": "Team player or individual contributor"
+    },
+    "softSkillsImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "checkResultsLabel": {
+      "type": "string",
+      "default": "Check the results"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_about_singletechnologies",
+  "info": {
+    "displayName": "Technologies"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "We conquer the peaks of"
+    },
+    "technology": {
+      "displayName": "Technology",
+      "type": "component",
+      "repeatable": true,
+      "component": "about.technology"
+    }
+  }
+}

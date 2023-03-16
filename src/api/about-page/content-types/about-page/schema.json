@@ -1,0 +1,85 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_pages",
+  "info": {
+    "singularName": "about-page",
+    "pluralName": "about-pages",
+    "displayName": "About Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "settings.seo"
+    },
+    "intro": {
+      "displayName": "About Intro",
+      "type": "component",
+      "repeatable": false,
+      "component": "about.about-intro"
+    },
+    "gallery": {
+      "displayName": "Gallery",
+      "type": "component",
+      "repeatable": false,
+      "component": "about.gallery"
+    },
+    "facts": {
+      "displayName": "Facts",
+      "type": "component",
+      "repeatable": false,
+      "component": "about.facts"
+    },
+    "history": {
+      "displayName": "History",
+      "type": "component",
+      "repeatable": false,
+      "component": "about.history"
+    },
+    "offices": {
+      "displayName": "Offices",
+      "type": "component",
+      "repeatable": false,
+      "component": "about.offices"
+    },
+    "technologies": {
+      "displayName": "Technologies",
+      "type": "component",
+      "repeatable": false,
+      "component": "about.technologies"
+    },
+    "clientsLogos": {
+      "displayName": "Clients Logos",
+      "type": "component",
+      "repeatable": false,
+      "component": "about.clients-logos"
+    },
+    "testimonials": {
+      "displayName": "Testimonials",
+      "type": "component",
+      "repeatable": false,
+      "component": "about.testimonials"
+    },
+    "leaders": {
+      "displayName": "Leaders",
+      "type": "component",
+      "repeatable": false,
+      "component": "about.leaders"
+    },
+    "chiefOfficers": {
+      "displayName": "Chief Officers",
+      "type": "component",
+      "repeatable": true,
+      "component": "about.chief-officers"
+    }
+  }
+}

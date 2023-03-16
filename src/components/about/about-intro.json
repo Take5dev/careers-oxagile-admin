@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_about_about_intros",
+  "info": {
+    "displayName": "About Intro"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "I AM OXAGILE"
+    },
+    "lead": {
+      "type": "text",
+      "default": "Looking forward to welcoming you aboard!"
+    },
+    "buttonLabel": {
+      "type": "string",
+      "default": "Join us"
+    }
+  }
+}

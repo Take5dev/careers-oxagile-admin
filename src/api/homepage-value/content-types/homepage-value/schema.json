@@ -1,0 +1,62 @@
+{
+  "kind": "collectionType",
+  "collectionName": "homepage_values",
+  "info": {
+    "singularName": "homepage-value",
+    "pluralName": "homepage-values",
+    "displayName": "Homepage Value"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "tabTitle": {
+      "type": "string"
+    },
+    "tabIcon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "tabletImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "deviceImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "tabs": {
+      "displayName": "Tabs",
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage.tabs"
+    }
+  }
+}

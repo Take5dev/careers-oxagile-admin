@@ -1,0 +1,48 @@
+{
+  "collectionName": "components_about_clients",
+  "info": {
+    "displayName": "Clients"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "countryName": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "showPoint": {
+      "type": "boolean",
+      "default": false
+    },
+    "positionLeft": {
+      "type": "boolean",
+      "default": false
+    },
+    "flag": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "mapx": {
+      "type": "float"
+    },
+    "mapy": {
+      "type": "float"
+    }
+  }
+}

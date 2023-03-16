@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_layout_content_404s",
+  "info": {
+    "displayName": "Content 404"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Ooops…"
+    },
+    "subTitle": {
+      "type": "string",
+      "default": "Page not found"
+    },
+    "lead": {
+      "type": "text",
+      "default": "If a vacancy has been posted here, it may have already been archived"
+    },
+    "vacanciesLinkLabel": {
+      "type": "string",
+      "default": "See all jobs"
+    }
+  }
+}

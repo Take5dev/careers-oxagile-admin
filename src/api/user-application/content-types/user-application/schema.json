@@ -1,0 +1,50 @@
+{
+  "kind": "collectionType",
+  "collectionName": "user_applications",
+  "info": {
+    "singularName": "user-application",
+    "pluralName": "user-applications",
+    "displayName": "User Application",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "date": {
+      "type": "datetime"
+    },
+    "vacancy": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::vacancy.vacancy",
+      "inversedBy": "user_applications"
+    },
+    "name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "message": {
+      "type": "text"
+    },
+    "attachments": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "skills": {
+      "type": "component",
+      "repeatable": true,
+      "component": "vacancies.skills"
+    }
+  }
+}

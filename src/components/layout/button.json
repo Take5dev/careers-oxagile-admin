@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_layout_buttons",
+  "info": {
+    "displayName": "Button"
+  },
+  "options": {},
+  "attributes": {
+    "external": {
+      "type": "boolean",
+      "default": false
+    },
+    "url": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    }
+  }
+}

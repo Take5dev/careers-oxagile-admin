@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_homepage_homepage_intros",
+  "info": {
+    "displayName": "Homepage Intro"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "We've been waiting for you."
+    },
+    "buttonLabel": {
+      "type": "string",
+      "default": "Explore all jobs"
+    }
+  }
+}

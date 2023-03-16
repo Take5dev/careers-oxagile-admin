@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_about_clients_logos",
+  "info": {
+    "displayName": "Clients Logos"
+  },
+  "options": {},
+  "attributes": {
+    "buttonLabel": {
+      "type": "string",
+      "default": "Dive into our competence"
+    },
+    "clientLogo": {
+      "displayName": "Client Logo",
+      "type": "component",
+      "repeatable": true,
+      "component": "about.client-logo"
+    }
+  }
+}

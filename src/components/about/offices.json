@@ -1,0 +1,79 @@
+{
+  "collectionName": "components_about_offices",
+  "info": {
+    "displayName": "Offices"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "our offices"
+    },
+    "subTitle": {
+      "type": "string",
+      "default": "We embrace the world"
+    },
+    "businessRepresentativesLabel": {
+      "type": "string",
+      "default": "Business representatives"
+    },
+    "businessRepresentativesImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "developmentCentersLabel": {
+      "type": "string",
+      "default": "Development centers"
+    },
+    "developmentCentersImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "teamPresenceLabel": {
+      "type": "string",
+      "default": "Team presence"
+    },
+    "teamPresenceImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "clientsLabel": {
+      "type": "string",
+      "default": "Clients"
+    },
+    "clientsImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "businessRepresentatives": {
+      "displayName": "Business Representatives",
+      "type": "component",
+      "repeatable": true,
+      "component": "about.business-representatives"
+    },
+    "teamPresence": {
+      "displayName": "Team Presence",
+      "type": "component",
+      "repeatable": true,
+      "component": "about.team-presence"
+    },
+    "clients": {
+      "displayName": "Clients",
+      "type": "component",
+      "repeatable": true,
+      "component": "about.clients"
+    }
+  }
+}
