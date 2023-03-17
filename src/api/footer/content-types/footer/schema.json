@@ -46,6 +46,10 @@
     "legal": {
       "type": "richtext",
       "default": "We do not sell your personal information. You can send any question on your personal data to <!-- --><a href=\"mailto:info@oxagile.com\">info@oxagile.com</a>"
+    },
+    "cookieLabel": {
+      "type": "string",
+      "default": "Cookie Settings"
     }
   }
 }
