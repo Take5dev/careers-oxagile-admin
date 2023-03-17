@@ -4,7 +4,8 @@
   "info": {
     "singularName": "homepage-value",
     "pluralName": "homepage-values",
-    "displayName": "Homepage Value"
+    "displayName": "Homepage Value",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -14,49 +15,53 @@
     "tabTitle": {
       "type": "string"
     },
-    "tabIcon": {
-      "allowedTypes": [
-        "images"
-      ],
-      "type": "media",
-      "multiple": false
-    },
     "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "title": {
       "type": "string"
     },
     "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "tabletImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "deviceImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "tabs": {
       "displayName": "Tabs",
       "type": "component",
       "repeatable": true,
       "component": "homepage.tabs"
+    },
+    "tabIconSVG": {
+      "type": "text"
+    },
+    "tabFill": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
