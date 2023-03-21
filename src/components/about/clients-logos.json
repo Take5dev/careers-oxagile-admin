@@ -1,7 +1,8 @@
 {
   "collectionName": "components_about_clients_logos",
   "info": {
-    "displayName": "Clients Logos"
+    "displayName": "Clients Logos",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -9,11 +10,15 @@
       "type": "string",
       "default": "Dive into our competence"
     },
-    "clientLogo": {
-      "displayName": "Client Logo",
-      "type": "component",
-      "repeatable": true,
-      "component": "about.client-logo"
+    "logos": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
     }
   }
 }

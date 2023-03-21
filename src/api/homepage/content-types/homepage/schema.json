@@ -47,6 +47,17 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::homepage-value.homepage-value"
+    },
+    "hotVacancyButtonText": {
+      "type": "string",
+      "default": "Explore"
+    },
+    "hotVacancyNoImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }

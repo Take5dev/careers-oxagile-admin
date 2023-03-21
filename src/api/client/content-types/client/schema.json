@@ -1,0 +1,56 @@
+{
+  "kind": "collectionType",
+  "collectionName": "clients",
+  "info": {
+    "singularName": "client",
+    "pluralName": "clients",
+    "displayName": "Client"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "countryName": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name"
+    },
+    "flag": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "showPoint": {
+      "type": "boolean",
+      "default": true
+    },
+    "positionLeft": {
+      "type": "boolean",
+      "default": false
+    },
+    "mapx": {
+      "type": "float",
+      "required": true
+    },
+    "mapy": {
+      "type": "float",
+      "required": true
+    }
+  }
+}

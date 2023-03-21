@@ -22,9 +22,9 @@
     },
     "vacancies": {
       "type": "relation",
-      "relation": "manyToMany",
+      "relation": "oneToMany",
       "target": "api::vacancy.vacancy",
-      "mappedBy": "departments"
+      "mappedBy": "department"
     }
   }
 }

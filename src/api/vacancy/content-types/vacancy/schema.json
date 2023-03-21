@@ -45,15 +45,15 @@
         "images"
       ]
     },
-    "departments": {
+    "department": {
       "type": "relation",
-      "relation": "manyToMany",
+      "relation": "manyToOne",
       "target": "api::department.department",
       "inversedBy": "vacancies"
     },
-    "levels": {
+    "level": {
       "type": "relation",
-      "relation": "manyToMany",
+      "relation": "manyToOne",
       "target": "api::level.level",
       "inversedBy": "vacancies"
     },

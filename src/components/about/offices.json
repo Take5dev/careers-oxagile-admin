@@ -1,7 +1,8 @@
 {
   "collectionName": "components_about_offices",
   "info": {
-    "displayName": "Offices"
+    "displayName": "Offices",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -18,62 +19,63 @@
       "default": "Business representatives"
     },
     "businessRepresentativesImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "developmentCentersLabel": {
       "type": "string",
       "default": "Development centers"
     },
     "developmentCentersImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "teamPresenceLabel": {
       "type": "string",
       "default": "Team presence"
     },
     "teamPresenceImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "clientsLabel": {
       "type": "string",
       "default": "Clients"
     },
     "clientsImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
-    "businessRepresentatives": {
-      "displayName": "Business Representatives",
-      "type": "component",
-      "repeatable": true,
-      "component": "about.business-representatives"
+    "business_representatives": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::business-representative.business-representative"
     },
-    "teamPresence": {
-      "displayName": "Team Presence",
-      "type": "component",
-      "repeatable": true,
-      "component": "about.team-presence"
+    "team_presences": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::team-presence.team-presence"
     },
     "clients": {
-      "displayName": "Clients",
-      "type": "component",
-      "repeatable": true,
-      "component": "about.clients"
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::client.client"
     }
   }
 }

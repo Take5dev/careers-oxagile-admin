@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "business_representatives",
+  "info": {
+    "singularName": "business-representative",
+    "pluralName": "business-representatives",
+    "displayName": "Business Representative"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "countryName": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name",
+      "required": true
+    },
+    "flag": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "description": {
+      "type": "string"
+    },
+    "mapx": {
+      "type": "float",
+      "required": true
+    },
+    "mapy": {
+      "type": "float",
+      "required": true
+    }
+  }
+}
