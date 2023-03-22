@@ -31,6 +31,10 @@
     "scrollDownLabel": {
       "type": "string",
       "default": "Scroll to discover"
+    },
+    "hotVacancyLabel": {
+      "type": "string",
+      "default": "Hot Vacancy"
     }
   }
 }

@@ -4,7 +4,8 @@
   "info": {
     "singularName": "vacancy-page",
     "pluralName": "vacancy-pages",
-    "displayName": "Vacancy Page"
+    "displayName": "Vacancy Page",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -16,11 +17,12 @@
       "default": "🔥 Hot"
     },
     "defaultImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "applyLabel": {
       "type": "string",
@@ -31,48 +33,64 @@
       "default": "Compare your skills with our requirements"
     },
     "guessYourMatchImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "mustHaveLabel": {
       "type": "string",
       "default": "Must-have"
     },
     "mustHaveImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "isAPlusLabel": {
       "type": "string",
       "default": "Is a plus"
     },
     "isAPlusImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "softSkillsLabel": {
       "type": "string",
       "default": "Team player or individual contributor"
     },
     "softSkillsImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "checkResultsLabel": {
       "type": "string",
       "default": "Check the results"
+    },
+    "vacancyNotFoundLabel": {
+      "type": "string",
+      "default": "404 - Vacancy not found"
+    },
+    "relatedVacanciesTitle": {
+      "type": "string",
+      "default": "Related vacancies"
+    },
+    "relatedButtonLabel": {
+      "type": "string",
+      "default": "Explore All Jobs"
     }
   }
 }

@@ -76,6 +76,10 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::client.client"
+    },
+    "remoteIsAvailableLabel": {
+      "type": "string",
+      "default": "Remote is Available"
     }
   }
 }
