@@ -12,9 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "date": {
-      "type": "datetime"
-    },
     "vacancy": {
       "type": "relation",
       "relation": "manyToOne",
@@ -30,9 +27,9 @@
     "message": {
       "type": "text"
     },
-    "attachments": {
+    "attachment": {
       "type": "media",
-      "multiple": true,
+      "multiple": false,
       "required": false,
       "allowedTypes": [
         "images",
